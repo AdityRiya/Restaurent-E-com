@@ -1,0 +1,138 @@
+.home #header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://awrestaurants.com/sites/default/files/Real%20Fruit%20Shakes%20and%20Sundaes%20LTO%20Header%202021_WEB_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.search-box:hover > input {
+    width: 150px;
+    padding: 0 8px;
+}
+
+.search-box a {
+   
+    float: right;
+    width: 44px;
+    height: 44px;
+    padding-top: 11px;
+
+    transition: 1s
+}
+.search-box input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    text-decoration: underline;
+    padding: 0;
+    color: black;
+   
+    font-size: 18px;
+    transition: 1s;
+    
+    width: 0px;
+}
+.search-box i {
+    color: black;
+    font-size: 18px;
+  
+}
+.nav-links a{
+    color: black;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.main-header{
+    margin-top: 20vh;
+}
+.home .my-btn{
+    padding: 5px 20px 10px ;
+    border-radius: 30px;
+    background: rgb(121, 168, 27);
+    color: white;
+}
+
+.home .my-btn:hover{
+    background: rgb(125, 184, 30);
+}
+.home .my-btn2{
+    padding: 5px 10px 6px 10px ;
+    border-radius: 30px;
+    background: rgb(121, 168, 27);
+    color: white;
+}
+
+.home .my-btn2:hover{
+    background: rgb(125, 184, 30);
+}
+.deal-one{
+    border: 1px solid rgb(204, 201, 201);
+    padding: 5px 5px;
+border-radius: 15px;
+}
+
+.home #countdown ul  {
+    margin:0;
+    padding:0;
+      list-style: none;
+    }
+.home #countdown  li {
+    display: inline;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+  
+.home #countdown  li span {
+    font-size: 12px;
+    background: rgb(121, 168, 27);
+    color: white;
+    padding:2px 5px;
+    border-radius:5px;
+    margin: 3px;
+}
+.home .summ{
+
+    padding: 10px 20px;
+    background: linear-gradient(160deg,rgb(239, 238, 238)
+     60%, rgb(228, 216, 216) 40% );
+     margin: 10px;
+     border-radius: 15px;
+}
+.home .summer{
+    color: rgb(100, 141, 17);
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.home .feature button{
+    border: none;
+    font-weight: 600;
+
+    background: transparent;
+}
+.home .feature button:focus{
+
+    color: yellowgreen;
+    border-bottom: 2px solid yellowgreen;
+}
+  
+.home .image{
+    border:1px solid rgb(190, 188, 188);
+    border-radius: 15px;
+}
+.home #natural-product{
+    width: 100%;
+    min-height:  70vh;
+    background-image: url(https://previews.123rf.com/images/tab1962/tab19621601/tab1962160100036/50228714-top-view-of-a-partial-fried-asian-style-chicken-wings-in-white-plate-with-garnishes-rustic-wood-unde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+@media only screen and (max-width: 600px) {
+    #header .navbar{
+        width: 100% !important;
+        background: rgba(255, 255, 255, 0.445) !important;
+    }
+  }
