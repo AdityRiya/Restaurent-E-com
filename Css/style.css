@@ -124,11 +124,22 @@ border-radius: 15px;
 }
 .home #natural-product{
     width: 100%;
-    min-height:  70vh;
-    background-image: url(https://previews.123rf.com/images/tab1962/tab19621601/tab1962160100036/50228714-top-view-of-a-partial-fried-asian-style-chicken-wings-in-white-plate-with-garnishes-rustic-wood-unde.jpg);
+    
+    background-image: url(https://opencart.dostguru.com/OF01/flavoro_01/image/cache/catalog/banner-service/banner-service-1920x900.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
+}
+.home #natural-product .natural{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+    
+}
+.home .summer2{
+    color: white;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    
 }
 @media only screen and (max-width: 600px) {
     #header .navbar{
