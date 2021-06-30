@@ -1,7 +1,7 @@
 .home #header{
     width: 100%;
     min-height: 100vh;
-    background-image: url(https://awrestaurants.com/sites/default/files/Real%20Fruit%20Shakes%20and%20Sundaes%20LTO%20Header%202021_WEB_0.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -97,7 +97,7 @@ border-radius: 15px;
     padding: 10px 20px;
     background: linear-gradient(160deg,rgb(239, 238, 238)
      60%, rgb(228, 216, 216) 40% );
-     margin: 10px;
+     
      border-radius: 15px;
 }
 .home .summer{
@@ -118,16 +118,17 @@ border-radius: 15px;
     border-bottom: 2px solid yellowgreen;
 }
   
-.home .image{
+.home #gallary .image{
     border:1px solid rgb(190, 188, 188);
     border-radius: 15px;
 }
 .home #natural-product{
     width: 100%;
     
-    background-image: url(https://opencart.dostguru.com/OF01/flavoro_01/image/cache/catalog/banner-service/banner-service-1920x900.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .home #natural-product .natural{
     margin-top: 20vh;
@@ -141,6 +142,85 @@ border-radius: 15px;
     font-family: 'Dancing Script', cursive;
     
 }
+.home #full-support i{
+    font-size: 300%;
+    margin: 25px 20px;
+}
+.home .full-support{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 20px;
+}
+.home .category {
+    display: flex;
+    justify-content:space-around;
+}
+.home .category button{
+    border: 1px solid rgb(196, 195, 195);
+    background: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    
+
+}
+.home .category button:focus{
+
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+}
+#footer-form{
+    background: rgb(101, 145, 14);
+}
+#footer-form .input-group input{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    font-size: 13px;
+}
+#footer-form .input-group .input-group-text{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background: black;
+    color: white;
+    border-color: black;
+    font-size: 13px;
+}
+#footer-form .icon{
+    display: flex;
+    justify-content:space-around;
+}
+#footer-form .icon i{
+    color: gray;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    padding-left: 8px;
+}
+#footer .plants a{
+    color: white;
+    font-size: 10px;
+    padding: 0px 10px;
+    border-right: 2px solid gray;
+}
+.shadow{
+    border-radius: 10px;
+    border: 2px solid rgb(228, 227, 227);
+    box-shadow: 5px 2px 5px rgb(226, 226, 226);
+    overflow: hidden;
+}
+#blog .images{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#blog .image{
+    width: 10%;
+}
+
 @media only screen and (max-width: 600px) {
     #header .navbar{
         width: 100% !important;
