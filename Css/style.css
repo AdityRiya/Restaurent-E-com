@@ -226,4 +226,15 @@ border-radius: 15px;
         width: 100% !important;
         background: rgba(255, 255, 255, 0.445) !important;
     }
+    #blog .images{
+        display: none;
+        
+    }
+    #footer-form .icon{
+        margin-top: 20px;
+    }
+    #footer #plants{
+        display: none;
+    }
+
   }
