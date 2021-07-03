@@ -1,10 +1,8 @@
 .home #header{
-    width: 100%;
-    min-height: 100vh;
-    
+    width: 100%;  
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50%;
+   
 }
 .home #header2{
     width: 100%;
@@ -49,7 +47,8 @@
     font-size: 20px;
 }
 .main-header{
-    margin-top: 20vh;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 .home .my-btn{
     padding: 5px 20px 10px ;
