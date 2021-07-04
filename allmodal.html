@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="Css/style.css">
+  </head>
+  <body>
+    <button type="button" class=" my-button2" data-toggle="modal" data-target=".bd-example-modal-lg">Single Product</button>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <img class="w-100 mt-4 p-2" src="https://media.architecturaldigest.in/wp-content/uploads/2020/04/Mumbai-restaurant-COVID-19-2-1.jpg" id="product-img" alt="">
+                        <div class="row mx-auto my-2">
+                            <div class="col-3">
+                                <img src="https://www.rnz.co.nz/assets/news/157293/eight_col_32917696_l.jpg?1531180633" alt="" class="w-100 small-img">
+                            </div>
+                            <div class="col-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu57mDRAPfYTmMQZInxb3od_NDmrhc48aRnen0RTYH_R6ET2XK5OUbR9Ns_ZzPtj4cKCQ&usqp=CAU" alt="" class="w-100 small-img">
+                            </div>
+                            <div class="col-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaOjx5eQXRlXlPx55YUeNIoWIeO0x1KNUN7IqWs_FQI_vBYGTODd854cD5d3ykipYChtg&usqp=CAU" alt="" class="w-100 small-img">
+                            </div>
+                            <div class="col-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu57mDRAPfYTmMQZInxb3od_NDmrhc48aRnen0RTYH_R6ET2XK5OUbR9Ns_ZzPtj4cKCQ&usqp=CAU" alt="" class="w-100 small-img">
+                            </div>
+                            
+                        </div>
+                       </div>
+                       <div class="col-md-6  mt-4">
+                           <h4>Lorem ipsum dolor sit.</h4>
+                           <hr>
+                           <table class="table table-sm my-table">
+                               <tr>
+                                   <td>
+                                       Brand:
+                                   </td>
+                                   <td class="text-success">
+                                       Pizza
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       Product Code:
+                                   </td>
+                                   <td>
+                                       Product 16
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>Reward Points:</td>
+                                   <td>600</td>
+                               </tr>
+                               <tr>
+                                   <td>Availability:</td>
+                                   <td>In Stock</td>
+                               </tr>
+        
+                           </table>
+                           <hr>
+                           <h4><b>$602.00</b></h4>
+                           <hr>
+                           <div class="row">
+                            <div class="col-12">
+                                <h4>Available Options</h4>
+                                <form action="">
+                                    <label for=""><span class="text-danger">*</span>Select</label>
+                                    <select name="" class="form-control form-control-sm" id="">
+                                        <option value="">---Please Select</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                        <hr>
+                           <div class="row">
+                               <div class="col-3">
+                                   <p>Qty:</p>
+                               </div>
+                               <div class="col-9">
+                                <div class="counter">
+                                    <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                                    <input type="text" value="1">
+                                    <span class="up" onClick='increaseCount(event, this)'>+</span>
+                                  </div>
+                                  
+                               </div>
+                           </div>
+                           <hr>
+                          
+                           <button class="my-button2"><i class="fas fa-shopping-basket "></i>Basket</button>
+                           <button class="my-button2"><i class="far fa-heart"></i></button>
+                           <button class="my-button2"><i class="fas fa-balance-scale-right"></i></button>
+                           <hr>
+                          
+                          
+                           
+                       </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+<!-- Button trigger modal -->
+<button type="button" class="my-button2" data-toggle="modal" data-target="#exampleModal">
+    Subscribe
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade  bd-example-modal-sm" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h4 class="text-uppercase">Sign Up Our Newsletter</h4>
+                        <p class="text-secondary"><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sequi esse unde</small></p>
+                        <form action="">
+                            <input type="email" name="" class="form-control form-control-sm my-3" placeholder="Your Email Address" id="">
+                            <button class="my-button2 my-4">Subscribe</button> <br>
+                            <form action="" class="mt-4">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Close & Don't Show this again!!!</label>
+                            </form>
+                           
+                        </form>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+    
+   <div class="container">
+       <div class="row">
+           <div class="col-sm-12 bg-light my-4">
+               <div class="row ">
+                   <div class="col-sm-5 text-center">
+                       <img src="https://media.architecturaldigest.in/wp-content/uploads/2020/04/Mumbai-restaurant-COVID-19-2-1.jpg" class="w-100 p-1" alt="">
+                       <p class="text-warning"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                   </div>
+                   <div class="col-sm-7 my-3">
+                       <h5>Lorem ipsum dolor sit amet.</h5>
+                       <h4><b>$122.00</b></h4>
+                       <p class="text-secondary"><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut error architecto eveniet magnam cum nemo ullam saepe dolorem, facere earum iure aliquid placeat minus obcaecati impedit hic</small></p>
+                       <button class="btn bg-white"><i class="far fa-heart"></i></button>
+                       <button class="btn bg-white"><i class="fas fa-balance-scale-left"></i></button>
+                       <button  class="btn bg-white"><i class="far fa-eye"></i></button>
+                       <div class="row">
+                       
+                        <div class="col-3 my-2">
+                         <div class="counter bg-white">
+                             <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                             <input type="text" class="mb-1" value="1">
+                             <span class="up" onClick='increaseCount(event, this)'>+</span>
+                           </div>
+                           
+                        </div>
+                        <div class="col-9 my-3">
+                            <button class="my-button2"><i class="fas fa-shopping-basket "></i>Basket</button>
+                        </div>
+
+                    </div>
+                   </div>
+               </div>
+
+
+
+           </div>
+       </div>
+   </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
