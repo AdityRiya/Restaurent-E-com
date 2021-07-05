@@ -317,6 +317,71 @@ border-radius: 15px;
     margin-right: 10px;
     border-radius: 5px;
 }
+
+.home .breakfast{
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(128, 129, 129);
+}
+.home .breakfast:hover{
+    border: 1px solid rgb(194, 247, 116);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(131, 190, 117);
+    color: white;
+    background-image: linear-gradient(to right,rgb(136, 216, 127),rgb(224, 255, 224));
+}
+.home .breakfast a{
+    color: black;
+}
+.home .breakfast a:hover{
+    color: rgb(66, 110, 1);
+    text-decoration: none;
+}
+
+.lunch a{
+    color: black;
+    font-size: 20px;
+    display: block;
+    padding: 8px;
+    background: none;
+    border: none;
+    transition: .4s;
+}
+.lunch a:hover{
+    color: rgb(126, 182, 16);
+    text-decoration: none;
+    border-left: 5px solid yellowgreen;
+    font-weight: 25px;
+    
+  
+}
+.lunch a:active{
+    font-weight: 20px;
+    color: rgb(103, 153, 4);
+    border: none;
+    text-decoration: none;
+}
+.items{
+    border-left: 10px double rgb(94, 153, 5);
+}
+.menu-button{
+    padding: 10px 25px;
+    background: white;
+    font-size: 20px;
+    border: 3px solid rgb(123, 160, 48);
+    color: black;
+    transition: .3s;
+}
+.menu-button:hover{
+    border-color: yellowgreen;
+    background-image: linear-gradient(to right,rgb(130, 175, 39), rgb(197, 231, 129));
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 0px;
+    box-shadow: 5px 5px 10px rgb(101, 122, 69);
+
+}
 @media only screen and (max-width: 600px) {
     #header .navbar{
         width: 100% !important;
@@ -342,5 +407,11 @@ border-radius: 15px;
   @media only screen and (max-width: 850px){
     .Category1{
         display: none;
+        
+    }
+    .lunch a{
+       
+        display: inline-block;
+        
     }
   }
