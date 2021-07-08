@@ -29,40 +29,127 @@
 
 
   
+
+
+
+
+
+
+
+  <!-- ============== Sign Up Modal ============= -->
+  
+
+  
   <!-- Modal -->
-  <!-- <div class="modal fade  bd-example-modal-sm" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-         
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+           
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
         </div>
         <div class="modal-body">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <h4 class="text-uppercase">Sign Up Our Newsletter</h4>
-                        <p class="text-secondary"><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sequi esse unde</small></p>
-                        <form action="">
-                            <input type="email" name="" class="form-control form-control-sm my-3" placeholder="Your Email Address" id="">
-                            <button class="my-button2 my-4">Subscribe</button> <br>
-                            <form action="" class="mt-4">
-                                <input type="checkbox" name="" id="">
-                                <label for="">Close & Don't Show this again!!!</label>
-                            </form>
-                           
+                        <h2>Sign Up Form</h2>
+                    </div>
+                    <div class="col-sm-12">
+                        <form action="" class="border px-4 pt-4">
+                            <div class="form-row">
+                                <div class="col-6 my-2">
+                                 <input type="text" required placeholder="First Name" class="form-control form-control-sm" name="" id="">
+                                </div>
+                                <div class="col-6 my-2">
+                                 <input type="text" required placeholder="Last Name" class="form-control form-control-sm" name="" id="">
+                                </div>
+                                <div class="col-6 my-2">
+                                    <input type="email" required name="" class="form-control form-control-sm"  placeholder="Type Valid Email" id="">
+                                </div>
+                                <div class="col-6 my-2">
+                                 <input type="text" required name="" class="form-control form-control-sm"  placeholder="Phone Number" id="">
+                             </div>
+                             <div class="col-6 my-2">
+                                 <input type="password" required name="" class="form-control form-control-sm"  placeholder="Password" id="">
+                             </div>
+                             <div class="col-6 my-2">
+                                 <input type="password" required name="" class="form-control form-control-sm"  placeholder="Re-type Password" id="">
+                             </div>
+                             <div class="col-12 text-center">
+                                 <button class="btn btn-success w-25 mb-3 mt-2"> Sign Up</button>
+         
+                             </div>
+                            </div>
+                            
                         </form>
-        
                     </div>
                 </div>
             </div>
+
+
+
         </div>
-       
+      
       </div>
     </div>
-  </div> -->
+  </div>
+</div>
+  <!-- =============End Sign Up Modal==================== -->
+
+
+
+<!-- =========== Cart Modal================ -->
+
+
+<div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+           
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+            <div class=" col-sm-12 orders">
+                <h4 class="mb-4">List of Items</h4>
+                <table class="table table-sm border ">
+                    <tr>
+                        <td>Item Name * 2
+                            <br>
+                            <p><small><b>Details:</b>Lorem ipsum dolor sit.</small></p>
+                        </td>
+                        <td>160$</td>
+                    </tr>
+                    <tr>
+                     <td>Item Name * 2
+                         <br>
+                         <p><small><b>Details:</b>Lorem ipsum dolor sit.</small></p>
+                     </td>
+                     <td>160$</td> 
+                 </tr>
+                 
+                </table>
+                <a href="placeorder.html">
+                    <button class="btn btn-success ">Order Now</button>
+                </a>
+               
+            </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- ============Cart Modal================= -->
+
+
+
+
    
    <div class="home">
 
@@ -72,55 +159,47 @@
     
     ===============================================-->
        <section id="header"  style="background: linear-gradient(rgba(255, 255, 255, 0.845), rgba(230, 230, 230, 0.55)), url('https://images.unsplash.com/photo-1543352634-99a5d50ae78e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bHVuY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80');background-repeat: no-repeat; background-size: cover;">
-           <div class="container">
-               <div class="row">
-                    <div class="col-sm-12">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                            <a class="navbar-brand" href="#">Logo</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
-                            </button>
-                          
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                              <ul class="navbar-nav mr-auto">
-                                
+        <div class="container">
+            <div class="row">
+                 <div class="col-sm-12">
+                     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                         <a class="navbar-brand" href="#">Logo</a>
+                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                         </button>
+                       
+                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                           <ul class="navbar-nav mr-auto">
+                             <li class="nav-item mx-2">
+                                 <a class="nav-link" href="index.html">Home </a>
+                               </li>
+                            
+                             <li class="nav-item mx-2">
+                                 <a class="nav-link" href="restaurant.html">Restaurant</a>
+                               </li>
+                             <li class="nav-item mx-2">
+                                 <a class="nav-link" href="booktable.html">Book Table</a>
+                               </li>
                                
+                           </ul>
+                           <form class="form-inline my-2 my-lg-0">
                                
-                               
-                                <li class="nav-item mx-2">
-                                    <a class="nav-link" href="index.html#breakfast">Menu</a>
-                                  </li>
-                                  <li class="nav-item mx-2">
-                                    <a class="nav-link" href="fruits.html">TABLETS</a>
-                                  </li>
-                                  <li class="nav-item mx-2">
-                                    <a class="nav-link" href="fruits.html">ELEMENTUM</a>
-                                  </li>
-                                  <li class="nav-item mx-2">
-                                    <a class="nav-link" href="fruits.html">FOOD</a>
-                                  </li>
-                                  <li class="nav-item mx-2">
-                                    <a class="nav-link" href="fruits.html">TURPIS NEC</a>
-                                  </li>
-                              </ul>
-                              <form class="form-inline my-2 my-lg-0">
-                                  
-                                    <div class="search-box">
-                                        <input type="text" name="search" placeholder="Type To Search..."/><a href="#">
-                                            <i class="fas fa-search"></i></a>
-                                    </div>
-                                    <div class="nav-links">
-                                    <a href="#"><i class="fas fa-cog"></i></a>
-                                    <a href="#"><i class="fas fa-user"></i></a>
-                                    <a href="#"><i class="fas fa-shopping-bag"></i></a>
-                                </div>
-                              </form>
-                            </div>
-                          </nav>
-                    </div>
+                                 <div class="search-box">
+                                     <input type="text" name="search" placeholder="Type To Search..."/><a href="#">
+                                         <i class="fas fa-search"></i></a>
+                                 </div>
+                                 <div class="nav-links">
+                                 
+                                 <a  data-toggle="modal" data-target="#myModal2"><i class="fas fa-user"></i></a>
+                                 <a  data-toggle="modal" data-target="#myModal3"><i class="fas fa-shopping-bag"></i></a>
+                             </div>
+                           </form>
+                         </div>
+                       </nav>
+                 </div>
 
-               </div>
-           </div>
+            </div>
+        </div>
            <div class="container my-4">
                <div class="row my-4">
                    <div class="col-sm-12 text-center my-4 ">
@@ -131,7 +210,10 @@
                         <p class="text-secondary">
                             <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo accusantium porro omnis qui. Suscipit recusandae cumque rerum mollitia aliquam repudiandae totam </small>
                         </p>
-                        <button class="btn my-btn btn-sm my-4 "><b>Order Now</b></button>
+                        <a href="ordernow.html">
+                            <button class="btn my-btn btn-sm my-4 "><b>Order Now</b></button>
+                        </a>
+                       
                        </div>
                       
                    </div>
