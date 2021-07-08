@@ -158,11 +158,11 @@ border-radius: 15px;
     border: 1px solid rgb(202, 202, 202);
     border-radius: 20px;
 }
-.home .category {
+.category {
     display: flex;
     justify-content:space-around;
 }
-.home .category button{
+.category button{
     border: 1px solid rgb(196, 195, 195);
     background: white;
     width: 150px;
@@ -171,7 +171,7 @@ border-radius: 15px;
     
 
 }
-.home .category button:focus{
+.category button:focus{
 
     color: yellowgreen;
     border: 1px solid yellowgreen;
@@ -382,6 +382,250 @@ border-radius: 15px;
     box-shadow: 5px 5px 10px rgb(101, 122, 69);
 
 }
+.restaurant-search form input{
+    height:50px;
+    width: 50%;
+   
+}
+.restaurant-search form button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(137, 182, 47);
+    border-color: yellowgreen;
+}
+.restaurant-search form button:hover{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(165, 219, 57);
+    border-color: yellowgreen;
+
+}
+.restaurant-search form button a{
+    color: white;
+    font-weight: 600;
+}
+.restaurant-search form button a:hover{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.filter .wrapper {
+    width: 100%;
+    margin-top: 50px
+}
+
+@media(max-width:992px) {
+    .filter .wrapper {
+        width: 100%
+    }
+}
+
+.filter .panel-heading {
+    padding: 0;
+    border: 0;
+    padding: 9px 3px !important
+}
+
+.filter .panel-title>a,
+.filter .panel-title>a:active {
+    display: block;
+    padding: 10px;
+    color: #555;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-decoration: none
+}
+
+.filter .panel-heading a:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    transition: all 0.5s
+}
+
+.filter .panel-heading.active a:before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.filter .panel-default>.panel-heading {
+    color: #282b2f;
+    background-color: #ffffff !important;
+    border-color: #d5d5d5
+}
+
+@keyframes click-wave {
+    0% {
+        height: 40px;
+        width: 40px;
+        opacity: 0.15;
+        position: relative
+    }
+
+    100% {
+        height: 200px;
+        width: 200px;
+        margin-left: -80px;
+        margin-top: -80px;
+        opacity: 0
+    }
+}
+
+.filter .option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: -8.66667px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000
+}
+
+.filter .option-input:hover {
+    background: #9faab7
+}
+
+.filter .option-input:checked {
+    background: #83d31b
+}
+
+.filter .option-input:checked::before {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-size: 14.66667px;
+    text-align: center;
+    line-height: 26px
+}
+
+.filter .option-input:checked::after {
+    -webkit-animation: click-wave 0.15s;
+    -moz-animation: click-wave 0.15s;
+    animation: click-wave 0.15s;
+    background: #86ce28;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100
+}
+
+.filter .option-input.radio {
+    border-radius: 50%
+}
+
+.filter .option-input.radio::after {
+    border-radius: 50%
+}
+
+.filter .checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+    float: left;
+    margin-left: -4px !important;
+    margin-top: 9px
+}
+
+.filter input[type="checkbox"]:focus {
+    outline: thin dotted #333;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px
+}
+
+.filter .ml-10 {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #080808
+}
+
+.filter .btn.btn-out {
+    outline: 1px solid #fff;
+    outline-offset: -5px
+}
+
+.filter .btn {
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 11px;
+    padding: 10px 19px;
+    cursor: pointer;
+    color: #fff
+}
+
+.filter .fa {
+    font-size: 12px;
+    color: #86ce28;
+}
+
+.filter .refine {
+    padding: 0px 0px !important
+}
+
+.filter .filters-text {
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 15px;
+    padding: 12px
+}
+
+.filter .filter-span {
+    font-size: 17px;
+    color: #86ce28;
+}
+
+#book-a-table {
+    
+    background-color: #fafafaf4;
+    border-radius: 15px;
+    padding: 50px 0px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 50px 0px;
+    float: left;
+    width: 100%;
+}
+.book-a-table p {
+	color: #9a9a9a;
+}
+
+.show-menu-button{
+    background-color: rgb(105, 150, 15);
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.show-menu-button:hover{
+    background-color: rgb(124, 179, 16);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
 @media only screen and (max-width: 600px) {
     #header .navbar{
         width: 100% !important;
